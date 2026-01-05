@@ -2,9 +2,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
-
 export const analyzeFridgeImages = async (base64Images: string[]): Promise<AnalysisResult> => {
+  // リクエストの直前にインスタンスを作成することで、環境変数の変更に対応
+  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
   const model = "gemini-3-flash-preview";
   
   const systemInstruction = `
