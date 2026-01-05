@@ -1,0 +1,8 @@
+
+{
+  "name": "Reizo-Dad: Fridge AI Chef",
+  "description": "A beginner-friendly app that suggests recipes based on photos of your fridge and pantry, acting like a warm and experienced dad who loves cooking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
