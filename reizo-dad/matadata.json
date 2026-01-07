@@ -1,7 +1,0 @@
-{
-  "name": "冷蔵庫の知恵袋: Reizo-Mom",
-  "description": "料理初心者のための、冷蔵庫の残り物活用アプリ。ベテラン主婦のような温かいアドバイスと代用案を提案します。",
-  "requestFramePermissions": [
-    "camera"
-  ]
-}
